@@ -55,14 +55,6 @@ El backend está alojado en http://localhost:3100/images. Los endpoints utilizad
 - GET /images: Devuelve una lista de imágenes con sus respectivos datos.
 - POST /images/:id/likes: Incrementa el contador de "likes" de una imagen específica.
 
-## Estructura del Proyecto
-
-src/: Contiene el código fuente de la aplicación.
-components/Card.js: Componente de tarjeta que muestra la imagen y el botón de "like".
-services/api.js: Archivo donde se configuran las llamadas a la API (backend).
-hooks/useInfiniteScroll.js: Custom hook para implementar el scroll infinito.
-App.js: Componente principal donde se gestionan las tarjetas y el scroll infinito.
-
 ### Cómo funciona
 
 - Estructura del proyecto
